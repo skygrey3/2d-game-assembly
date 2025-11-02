@@ -15,40 +15,40 @@ This project is a small 2D game implemented in MIPS assembler and runtime simula
 
 ### Dependencies
 
+All of these need to be installed in order to run the game:
+
 - [JDK (Java J2SE 1.5 or later)](https://www.oracle.com/java/technologies/downloads/)
 - [MARS 4.5](https://dpetersanderson.github.io/download.html)
 - Download `game_playerVsEnemy.asm` from this repo.
 
-All need to be installed in order to run the game.
-
 ### Running the Game
 
-1. Open MIPS simulator(Mars4_5.jar).
-2. Open the `game_playerVsEnemy.asm` file in MARS.
-3. Assemble the program.
-4. Under Tools, open `Keyboard And Display MMIO Simulator` and press `Connect to MIPS`.
-5. Run the program.
+- 1. Open MIPS simulator(Mars4_5.jar).
+- 2. Open the `game_playerVsEnemy.asm` file in MARS.
+- 3. Assemble the program.
+- 4. Under Tools, open `Keyboard And Display MMIO Simulator` and press `Connect to MIPS`.
+- 5. Run the program.
 
-- To control your character, write in the text box w, a, s or d to move up, left, down or right.
+To control your character, write in the text box w, a, s or d to move up, left, down or right.
 
-- To restart the game:
+### To restart the game:
 
-1. Stop running the program.
-2. Disconnect, then reset the `Keyboard And Display MMIO Simulator`.
-3. Reset MIPS memory and registers(the button with two arrows pointing left).
-4. Connect the `Keyboard And Display MMIO Simulator`.
-5. Run the program.
+- 1. Stop running the program.
+- 2. Disconnect, then reset the `Keyboard And Display MMIO Simulator`.
+- 3. Reset MIPS memory and registers(the button with two arrows pointing left).
+- 4. Connect the `Keyboard And Display MMIO Simulator`.
+- 5. Run the program.
 
 ## Screenshots
 
 ### Game is 🏃‍♂️ :
 
-![](/images/game-running.png)
+![](/images/game-running.PNG)
 
 
-### Game over screen:
+### Game over screen :
 
-![](/images/game-over.png)
+![](/images/game-over.PNG)
 
 
 ## License
